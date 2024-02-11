@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.io</title>
+    <!-- Importamos el script de socket.io desde el servidor en localhost en el puerto 3000 -->
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <!-- Importamos nuestro archivo de script cliente (client.js) -->
+    <script defer src="client.js"></script>
+</head>
+<body>
+    <form action="" id="msgForm">
+        <div id="mensajes"></div>
+            <input type="text" name="msg">
+            <button>Enviar</button>
+        
+    </form>
+    
+</body>
+</html>
